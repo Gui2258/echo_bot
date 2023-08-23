@@ -1,4 +1,4 @@
 FROM python:3.11
 COPY . .
-RUN pip install requeriments.txt
+RUN pyrhon -m pip install -r requeriments.txt
 CMD [ "python", "./echobot.py" ]
